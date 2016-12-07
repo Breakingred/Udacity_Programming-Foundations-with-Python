@@ -18,3 +18,13 @@
 >
 > Note: The reason for 8 spaces for tabs is so that you immediately notice when tabs have been inserted unintentionally - such as when copying and pasting from example code that uses tabs instead of spaces.
 
+
+
+### 2. IDLE 编辑窗口无法输入中文
+
+待解决，参考链接：
+
+https://github.com/OpenMindClub/OMOOC2py/issues/54
+
+https://www.zhihu.com/question/26532408
+
