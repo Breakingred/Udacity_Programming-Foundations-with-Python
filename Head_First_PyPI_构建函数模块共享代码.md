@@ -203,3 +203,26 @@ localhost:nester breaking_red$
 
 ***？提示我 nester 这个模块名称被占用，都有哪里的名称需要修改？还是说需要重头搞起？***
 
+[从头做起成功发布了 echo_nester 模块](https://pypi.python.org/pypi?%3Aaction=pkg_edit&name=echo_nester)
+
+```
+localhost:echo_nester breaking_red$ python3 setup.py sdist upload
+running sdist
+running check
+warning: sdist: manifest template 'MANIFEST.in' does not exist (using default file list)
+
+warning: sdist: standard file not found: should have one of README, README.txt
+
+writing manifest file 'MANIFEST'
+creating echo_nester-1.0.0
+making hard links in echo_nester-1.0.0...
+hard linking echo_nester.py -> echo_nester-1.0.0
+hard linking setup.py -> echo_nester-1.0.0
+Creating tar archive
+removing 'echo_nester-1.0.0' (and everything under it)
+running upload
+Submitting dist/echo_nester-1.0.0.tar.gz to https://pypi.python.org/pypi
+Server response (200): OK
+localhost:echo_nester breaking_red$
+```
+
