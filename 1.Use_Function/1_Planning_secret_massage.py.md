@@ -53,3 +53,7 @@ def rename_files():
 
 rename_files()
 ```
+
+这里使用了 [str.strip([chars])](https://docs.python.org/3.5/library/stdtypes.html?highlight=strip#str.strip)  .strip() 与 os.rename() 不同，它不是一个 module 的 function，是 Python的 built-in Types 即 String 下的方法，也就是说不需要从其他的模块调用，是一个默认的方法 String Methods
+
+### 完成目标

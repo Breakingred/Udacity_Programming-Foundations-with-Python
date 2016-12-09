@@ -42,5 +42,42 @@ MacOSX中一种存储文件夹元数据的系统文件
 
 
 
+### 4. Difference between Method & Function
+
+方法、函数的区别：
+
+1）built-in type 里 string 对应的可以直接使用的 str.strip() 
+
+2）标准库里 os 模块的函数 os.rename()，需要 import
+
+3）自己定义的函数 def print_list()，需要 import
+
+
+
+> In general: methods are functions that belong to a class, functions can be on any other scope of the code so you could state that all methods are functions, but not all functions are methods:
+>
+> Take the following python example:
+>
+> ```
+> class Door:
+>   def open(self):
+>     print 'hello stranger'
+>
+> def knock_door:
+>   a_door = Door()
+>   Door.open(a_door)
+>
+> knock_door()
+>
+> ```
+>
+> The example given shows you a class called "Door" which has a method or action called "open", it is called a method because it was declared inside a class. There is another portion of code with "def" just below which defines a function, it is a function because it is not declared inside a class, this function calls the method we defined inside our class as you can see and finally the function is being called by itself.
+>
+> As you can see you can call a function anywhere but if you want to call a method either you have to pass a new object of the same type as the class the method is declared (Class.method(object)) or you have to invoke the method inside the object (object.Method()), at least in python.
+>
+> Think of methods as things only one entity can do, so if you have a Dog class it would make sense to have a bark function only inside that class and that would be a method, if you have also a Person class it could make sense to write a function "feed" for that doesn't belong to any class since both humans and dogs can be fed and you could call that a function since it does not belong to any class in particular.
+
+
+
 
 
