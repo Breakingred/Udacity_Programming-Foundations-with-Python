@@ -20,11 +20,27 @@
 
 
 
-### 2. IDLE 编辑窗口无法输入中文
+### 2. ？IDLE 编辑窗口无法输入中文
 
 待解决，参考链接：
 
 https://github.com/OpenMindClub/OMOOC2py/issues/54
 
 https://www.zhihu.com/question/26532408
+
+
+
+### 3. ？使用 os.listdir() 查看目录下文件时显示的 '.DS_Store' 是什么文件
+
+MacOSX中一种存储文件夹元数据的系统文件
+
+> .DS_Store files are used by Mac OS X to store folder specific metadata information. They are created in every folder that Mac OS X Finder accesses, even network volumes and external devices.
+
+[？是否可以删除/停止生成这个文件](http://osxdaily.com/2009/12/31/what-is-a-ds_store-file/)
+
+[如何停止文件生成](http://stackoverflow.com/questions/18015978/how-to-stop-creating-ds-store-on-mac)
+
+
+
+
 
